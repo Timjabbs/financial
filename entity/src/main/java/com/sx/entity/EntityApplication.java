@@ -3,6 +3,9 @@ package com.sx.entity;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author Anui
+ */
 @SpringBootApplication
 public class EntityApplication {
 

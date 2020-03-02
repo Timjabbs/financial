@@ -135,6 +135,6 @@ public class ProductService {
         Page<Product> page = repository.findAll(specification, pageable);
 
         LOG.debug("查询产品，结果={}",page);
-        return null;
+        return page;
     }
 }
